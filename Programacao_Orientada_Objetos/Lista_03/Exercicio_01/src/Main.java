@@ -20,6 +20,8 @@ public class Main {
         mapa1.inimigos.add(boss1);
 
         Inimigo inimigoComMaiorAtaque = mapa1.getInimigoMaiorAtaque();
-        
+
+        System.out.println("O inimigo com maior ataque registrado no seu bestiario até o momento é: "
+                            + inimigoComMaiorAtaque.nome + " com " + inimigoComMaiorAtaque.ataque + " de ataque.");
     }
 }

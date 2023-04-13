@@ -8,7 +8,7 @@ public class Mapa {
     ArrayList<Heroi> herois = new ArrayList<>();
 
     public Inimigo getInimigoMaiorAtaque(){
-        int maiorAtaqueInimigo = 0;
+        int maiorAtaqueInimigo = Integer.MIN_VALUE;
         int index = 0;
         for (int i = 0; i < inimigos.size() ; i++) {
             if (inimigos.get(i).ataque > maiorAtaqueInimigo){
