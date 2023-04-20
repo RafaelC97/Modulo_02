@@ -1,37 +1,19 @@
 public class Main {
     public static void main(String[] args) {
 
-        Musica musica1 = new Musica();
-        musica1.nome = "SOLTO";
-        musica1.duracaoEmSegundos = 219;
-        musica1.popularidade = 9;
-        musica1.genero = "RAP";
-
-        Musica musica2 = new Musica();
-        musica2.nome = "UFA";
-        musica2.duracaoEmSegundos = 351;
-        musica2.popularidade = 10;
-        musica2.genero = "RAP";
-
-        Musica musica3 = new Musica();
-        musica3.nome = "JUNHO DE 94";
-        musica3.duracaoEmSegundos = 329;
-        musica3.popularidade = 8;
-        musica3.genero = "RAP";
-
-        Album album1 = new Album();
-        album1.nome = "O MENINO QUE QUERIA SER DEUS";
-        album1.nomeArtista = "Djonga";
-        album1.musicas.add(musica1);
-        album1.musicas.add(musica2);
-        album1.musicas.add(musica3);
+        Album album1 = new Album("O MENINO QUE QUERIA SER DEUS", "Djonga");
+        album1.adicionarMusica(new Musica("SOLTO", 219, 9,"RAP"));
+        album1.adicionarMusica(new Musica("UFA", 351, 10, "RAP"));
+        album1.adicionarMusica(new Musica("JUNHO DE 94", 329, 8, "RAP"));
 
         Musica musicaMaisPopular = album1.getMusicaMaiorPopularidade();
         Musica menorMusica = album1.getMusicaMenorDuracao();
 
-        System.out.println("A música mais popular do album " + album1.nome + " é: " + musicaMaisPopular.nome
-                                + " com " + musicaMaisPopular.popularidade + " pontos de popularidade");
-        System.out.println("A música mais curta do album " + album1.nome + " é: " + menorMusica.nome + " com "
-                                + menorMusica.duracaoEmSegundos + " segundos de duração");
+        System.out.println("Informações do album: " + album1.getNome());
+        System.out.println("Música mais popular: " + musicaMaisPopular.getNome()
+                            + " com " + musicaMaisPopular.getPopularidade() + " pontos de popularidade");
+        System.out.println("Música mais curta: " + menorMusica.getNome() + " com "
+                            + menorMusica.getDuracaoEmSegundos() + " segundos de duração");
+        System.out.println("Duração do album é de: " + album1.getDuracao());
     }
 }
