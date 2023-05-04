@@ -1,0 +1,23 @@
+#menu {
+    display: flex;
+    justify-content:center;
+}
+
+.item-menu{
+    font-size: 40px;
+    margin-top: 90px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 100px;
+    font-family:'Times New Roman', Times, serif;
+    color: gold;
+    align-items: center;
+}
+
+.icone-texto-menu{
+    width: 40px;
+}
+
+.item-menu:hover{
+    color: yellow;
+}
