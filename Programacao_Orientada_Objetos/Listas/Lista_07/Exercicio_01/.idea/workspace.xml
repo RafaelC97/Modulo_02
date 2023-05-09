@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9aa6c3b-8191-4d5f-8940-c39f7e820392" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Aulas/aula05/Carrinho_Steam_JoptionPane-main/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aulas/aula05/Carrinho_Steam_JoptionPane-main/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Aulas/aula05/Carrinho_Steam_JoptionPane-main/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aulas/aula05/Carrinho_Steam_JoptionPane-main/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Aulas/aula05/Carrinho_Steam_JoptionPane-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aulas/aula05/Carrinho_Steam_JoptionPane-main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_05/Desafio_JoptionPane/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_05/Desafio_JoptionPane/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_05/Desafio_JoptionPane/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_05/Desafio_JoptionPane/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_05/Desafio_JoptionPane/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_05/Desafio_JoptionPane/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectId" id="2PX2lY6T4Lm9LRZWuX9SQahunDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,7 +26,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Rafae/OneDrive/Área de Trabalho/Modulo_02/Programacao_Orientada_Objetos/Listas/Lista_07/Exercicio_01"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
