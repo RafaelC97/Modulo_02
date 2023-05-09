@@ -8,5 +8,6 @@ public class Main{
         fabrica.adicionaOperario(new OperadorDeDobra());
         
         fabrica.iniciarExpediente();
+        
 	}
 }
